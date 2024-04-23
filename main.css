@@ -14,7 +14,7 @@
 }
 
 body{
-    /*height: 100vh;*/
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,6 @@ body{
     background-color: var(--dark-color);
 }
 .container{
-    margin: 50px;
     width: 90vw;
     background: var(--primary);
     border-radius: 10px;

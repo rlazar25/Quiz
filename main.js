@@ -18,7 +18,7 @@ async function mainFunction(){
             option.addEventListener('click', userAnswer)
         })
         console.log();
-        footer.innerHTML = `Pitanje ${quiz.questionIndex + 1} / ${quiz.questions.length}`
+        footer.innerHTML = `Question ${quiz.questionIndex + 1} / ${quiz.questions.length}`
     }
 
     function userAnswer(e){
@@ -32,7 +32,7 @@ async function mainFunction(){
                 option.style.display = 'none';
             })
             mainH2.innerHTML = 'The Quiz Is Over'
-            main.innerHTML = `Your score is ${quiz.score} points`;
+            main.innerHTML = `Your score is ${quiz.score} / 100 `;
         }
     }
 }

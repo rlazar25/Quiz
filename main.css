@@ -14,7 +14,7 @@
 }
 
 body{
-    height: 100vh;
+    /*height: 100vh;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,6 +22,7 @@ body{
     background-color: var(--dark-color);
 }
 .container{
+    margin: 50px;
     width: 90vw;
     background: var(--primary);
     border-radius: 10px;
@@ -53,6 +54,7 @@ main .option {
     font-size: 1rem;
     font-weight: normal;
     color: var(--dark-color);
+    font-size: 1.2rem;
 }
 footer{
     font-size: 1.2rem;
